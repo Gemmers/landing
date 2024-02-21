@@ -1,0 +1,19 @@
+/* Tablet Styles */
+@media screen and (max-width: 768px) {
+  .banner {
+      /* Adjust container styles for tablet */
+      display: flex;
+      flex-direction: column;
+  }
+
+}
+
+/* Smartphone Styles */
+@media screen and (max-width: 480px) {
+  .banner {
+      /* Adjust container styles for smartphone */
+      display: flex;
+      flex-direction: column;
+  }
+
+}

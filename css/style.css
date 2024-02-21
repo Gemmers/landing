@@ -1,0 +1,43 @@
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* components */
+@import url('../css/components/banner.css');
+@import url('../css/components/container.css');
+@import url('../css/components/card.css');
+@import url('../css/components/footer.css');
+@import url('../css/components/quote.css');
+@import url('../css/components/onclick.css');
+@import url('../css/components/font-ubuntu.css');
+@import url('../css/components/cards.css');
+@import url('../css/components/media-queries.css');
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  font-family: Open Sans;
+  background-color:#34495E;
+  color: #7cc2f9;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+.list-inline li {
+  display: inline-block;
+}

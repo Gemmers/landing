@@ -1,0 +1,32 @@
+.water-drop-quote {
+  font-size: 18px;
+  font-weight: bold;
+  color: #7cc2f9;
+  padding: 10px;
+  margin: 20px 0;
+  position: relative; /* Ajout de la position relative */
+  text-align: right; /* Alignement du texte à droite */
+
+}
+
+.water-drop-quote::before {
+  content: '“';
+  font-size: 24px;
+  color: #7cc2f9;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.water-drop-quote::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -20px; /* Décalage vers la droite */
+  height: 100%;
+}
+
+#i-giant-quotes {
+  font-size: 6em;
+  opacity:0.8;
+}
